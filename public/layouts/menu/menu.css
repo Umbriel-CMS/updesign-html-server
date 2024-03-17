@@ -1,0 +1,132 @@
+.fechar {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 48px;
+}
+.fechar-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5.5px 0 0;
+}
+.close-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent {
+  width: 79px;
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 12px;
+  box-sizing: border-box;
+  gap: 7px;
+}
+.projetos1 {
+  align-self: stretch;
+}
+.contato,
+.projetos1,
+.sobre {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sobre {
+  width: 94px;
+  display: inline-block;
+  min-width: 94px;
+}
+.contato {
+  align-self: stretch;
+}
+.projetos-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.menu-inner {
+  width: 164px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 16px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 32px;
+}
+.brand-behance-icon1,
+.brand-facebook-icon1,
+.brand-linkedin-icon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.brand-instagram-icon1 {
+  height: 100%;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+.div-wrapper1,
+.div5,
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.div5 {
+  height: 20px;
+  flex: 1;
+  justify-content: flex-start;
+  position: relative;
+  gap: 32px;
+}
+.div-wrapper1,
+.menu2 {
+  width: 208px;
+  justify-content: flex-end;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.menu2 {
+  width: 320px;
+  height: 680px;
+  position: relative;
+  background-color: #142634;
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 24px 24px 40px;
+  gap: 180px;
+  letter-spacing: normal;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #f0ebe8;
+  font-family: Poppins;
+}
